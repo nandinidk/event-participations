@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dancing Participants</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Dancing Event Participants</h2>
+
+<table>
+<tr><th>Name</th><th>USN</th><th>Email</th></tr>
+<tbody id="data"></tbody>
+</table>
+
+<script>
+let participants = JSON.parse(localStorage.getItem("dancing")) || [];
+let table = document.getElementById("data");
+
+participants.forEach(p => {
+  table.innerHTML += `<tr><td>${p.name}</td><td>${p.usn}</td><td>${p.email}</td></tr>`;
+});
+</script>
+
+</body>
+</html>
