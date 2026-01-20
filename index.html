@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>College Event Registration Form</h2>
+
+<form id="regForm">
+  <input type="text" id="name" placeholder="Student Name" required>
+  <input type="text" id="usn" placeholder="USN / Roll No" required>
+  <input type="email" id="email" placeholder="Email" required>
+
+  <select id="event" required>
+    <option value="">Select Event</option>
+    <option value="coding">Coding Contest</option>
+    <option value="quiz">Quiz Competition</option>
+    <option value="poster">Poster Presentation</option>
+    <option value="dancing">Dancing</option>
+    <option value="singing">Singing</option>
+    <option value="sports">Sports</option>
+  </select>
+
+  <button type="submit">Register</button>
+</form>
+
+<p>
+<b>View Participants:</b><br>
+<a href="coding.html">Coding</a> |
+<a href="quiz.html">Quiz</a> |
+<a href="poster.html">Poster</a> |
+<a href="dancing.html">Dancing</a> |
+<a href="singing.html">Singing</a> |
+<a href="sports.html">Sports</a>
+</p>
+
+<script src="script.js"></script>
+</body>
+</html>
