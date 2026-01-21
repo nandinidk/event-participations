@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Participants</title>
+</head>
+<body>
+  <h2>All Event Participants</h2>
+
+  <ul>
+    <li>Ravi – Coding</li>
+    <li>Anita – Quiz</li>
+    <li>Sneha – Dancing</li>
+    <li>Rahul – Singing</li>
+    <li>Kiran – Sports</li>
+  </ul>
+
+  <a href="index.html">Back to Home</a>
+</body>
+</html>
